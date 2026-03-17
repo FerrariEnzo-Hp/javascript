@@ -1,13 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font: normal 1em Arial;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 0px;
+    display: block;
+    margin-bottom: 50px;
+}
+footer {
+    min-height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    margin: 0px;
+    margin-top: auto;
+    margin-top: 50px;
 }
 
 main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 700px;
     min-height: 700px;
     background-color: darkgray;
     border-radius: 20px;
-    margin-top: 400px;
     margin: auto;
     color: white;
 }
