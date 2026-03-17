@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div#quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+div#quadrado > h1 {
+    text-align: center;
+    line-height: 250px;
+}

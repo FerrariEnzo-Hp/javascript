@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Testador de estrangeiro</h1>
+    <h2>Escreva seu país de origem</h2>
+    <input type="text" id="txtlv">
+    <input type="button" value="verificar" onclick="nacionalidade()">
+    <div id="res"></div>
+    <script>
+        function nacionalidade () {
+            var nat = document.querySelector('input#txtlv').value
+            var res = document.querySelector('div#res')
+
+            if (nat == 'brasil') {
+                res.innerHTML = `Você é brasileiro`
+            } else {
+                res.innerHTML = `Você é estrangeiro`
+            }
+        }
+    </script>
+</body>
+</html>
