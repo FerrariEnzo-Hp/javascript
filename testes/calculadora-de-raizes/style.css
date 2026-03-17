@@ -19,6 +19,7 @@ header {
     margin-top: 0px;
     display: block;
     margin-bottom: 50px;
+    width: 100%;
 }
 footer {
     min-height: 50px;
@@ -29,6 +30,7 @@ footer {
     margin: 0px;
     margin-top: auto;
     margin-top: 50px;
+    width: 100%;
 }
 
 main {
